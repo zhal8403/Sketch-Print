@@ -1,4 +1,4 @@
-July 11, 2026 – First Pen Plotter Prototype
+# July 11, 2026 – First Prototype
 
 Time spent this session: 4 hours
 
@@ -18,9 +18,13 @@ First Drawing Test
 
 Instead of writing G-code immediately, I used the printer's manual movement controls to test the attachment. I moved the X and Y axes by hand through the printer's interface while the pen rested on the paper.
 
-To my surprise, it worked on the first prototype. The pen stayed in place, the attachment was rigid enough, and the printer was able to draw controlled lines. This confirmed that the mechanical design works before moving on to software.
+Took severale iterations but eventionly The pen stayed in place, the attachment was rigid enough, and the printer was able to draw controlled lines. This confirmed that the mechanical design works before moving on to software.
 
 [(Video Of Protype Test)](https://youtube.com/shorts/iX0R6QXbkKM)
+
+First Test using code uploaded 
+
+I reserarched how to write using gcode, After some redsearch I wrote a simple square drawing test and circle drawing test in a .txt file and saved it as a .gcode file then uploaded it using a SD card and ran it the code and hardware needed minor adjustment to get it working. 
 
 Next Steps
 
@@ -38,3 +42,7 @@ Multiple paper sizes and automatic scaling.
 Quick-change marker holders.
 An automatic multi-marker system for colored drawings.
 Direct printer communication from the website without needing an SD card.
+
+---
+
+# July 12, 2026 – Website
