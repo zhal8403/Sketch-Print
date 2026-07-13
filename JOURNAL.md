@@ -58,3 +58,12 @@ Once the pipeline was functioning correctly, I verified that images were success
 After getting the tracing system operational, I began tuning the quality of the generated paths by experimenting with contour simplification, filtering out tiny paths, and preparing the preview for a larger marker that will be used on the Ender 3 pen plotter. These improvements are intended to reduce unnecessary pen movement while creating cleaner drawings.
 
 By the end of the session, image importing, tracing, scaling, and rendering were all functioning, providing a solid foundation for improving trace quality and generating optimized G-code.
+
+---
+
+# Dev Journal – Today (Morning)
+
+**Time Spent:** ~1 hour
+
+This morning I continued refining the image tracing system. I adjusted the scaling logic so traced drawings fit correctly within the canvas and investigated how marker width affects the final output. I confirmed that changing the preview stroke width only affects the on-screen visualization and does not change the generated G-code. I also started planning improvements for filtering, path simplification, and better centerline tracing so the Ender 3 pen plotter can produce cleaner drawings with fewer unnecessary pen movements.
+
