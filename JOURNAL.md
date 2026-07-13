@@ -46,3 +46,15 @@ Direct printer communication from the website without needing an SD card.
 ---
 
 # July 12, 2026 – Website
+
+Time Spent: ~5 hours
+
+Today was focused on building and improving the image tracing system for SketchPrint. The original image import converted pictures into thousands of tiny disconnected line segments, which produced poor-looking drawings and inefficient G-code. I began replacing that approach with an OpenCV-based contour detection system that extracts continuous paths instead of individual pixels.
+
+A large portion of the session was spent debugging OpenCV integration with React and Vite. I encountered several issues, including module loading problems, OpenCV initialization failing, and image loading not progressing past the tracing stage. I rewrote the image tracing pipeline multiple times, switched to loading OpenCV globally, and added extensive logging throughout the tracing process to isolate each failure point.
+
+Once the pipeline was functioning correctly, I verified that images were successfully loaded, converted to grayscale, processed with edge detection, and converted into contour paths. I then added automatic scaling and centering so traced images fit inside the drawing canvas regardless of their original size.
+
+After getting the tracing system operational, I began tuning the quality of the generated paths by experimenting with contour simplification, filtering out tiny paths, and preparing the preview for a larger marker that will be used on the Ender 3 pen plotter. These improvements are intended to reduce unnecessary pen movement while creating cleaner drawings.
+
+By the end of the session, image importing, tracing, scaling, and rendering were all functioning, providing a solid foundation for improving trace quality and generating optimized G-code.
