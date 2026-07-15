@@ -1,0 +1,55 @@
+.toolbar{
+    height:70px;
+    background:#2c2c2c;
+
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+    padding:0 15px;
+
+    border-bottom:1px solid #444;
+}
+
+.toolbar button{
+
+    height:45px;
+    min-width:auto;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    border:none;
+    border-radius:8px;
+
+    background:#444;
+    color:white;
+
+    cursor:pointer;
+
+    transition:.2s;
+}
+
+.toolbar button:hover{
+    background:#5a5a5a;
+    transform:translateY(-2px);
+}
+
+.toolbar button.active{
+    background:#1976d2;
+}
+
+.spacer{
+    flex:1;
+}
+
+.plotButton{
+
+    background:#00a650 !important;
+    font-weight:bold;
+    padding:0 20px;
+}
+
+.plotButton:hover{
+    background:#00bf5f !important;
+}

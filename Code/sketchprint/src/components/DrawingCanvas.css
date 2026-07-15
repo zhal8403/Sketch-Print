@@ -1,0 +1,23 @@
+.canvasContainer{
+
+    flex:1;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#555;
+
+    overflow:hidden;
+}
+
+.konvajs-content{
+
+    background:white;
+
+    border-radius:10px;
+
+    box-shadow:0 0 25px rgba(0,0,0,.35);
+}
