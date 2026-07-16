@@ -58,5 +58,5 @@ I'm proud that SketchPrint combines software, hardware, and creativity into a si
 SketchPrint is designed for plotting with pens and markers. Drawing quality depends on printer calibration, marker thickness, paper placement, and image complexity.
 
 
-## Help
+## Help 
 multi color is very hard to implement in this small space if you have idea message [my slack](https://hackclub.enterprise.slack.com/team/U09KUU24SMS)
